@@ -1,0 +1,45 @@
+.caras{
+    background-color: rgb(154, 156, 155);
+    margin-left: auto;
+    width: 70%;
+    text-align: center;
+    color: black;
+    border: solid black;
+    border-radius: 50px;
+    
+}
+.caras:hover{
+    background-color: rgb(73, 17, 74);
+}
+    .img1{
+        height: 250px;
+    }
+    .text{
+        color: black;
+    }
+    .page{
+        color: black;
+        background-color: blueviolet;
+    }
+
+ .app{
+    /* background-color: rgb(91, 121, 90); */
+    /* background-image: url("https://images.unsplash.com/photo-1609678693605-00a47c0a45be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2hhbmdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"); */
+    opacity: 0.94;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: solid black 5px thick;
+    border-radius: 30px;
+    /* background-color: rgb(114, 114, 165); */
+} 
+/* .app:hover{
+    background-color: rgb(12, 12, 133);
+    background-image: url("https://plus.unsplash.com/premium_photo-1679664958342-6affb9ad7418?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhbmdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60"); 
+} */
+.home{
+    background-color: rgb(109, 169, 138);
+}
+.pc{
+    height: 450px; 
+    margin-bottom: 10px;
+}

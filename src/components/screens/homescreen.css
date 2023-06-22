@@ -1,0 +1,44 @@
+
+.app {
+  margin-top: 10px;
+  position: relative;
+}
+
+.app-header, .App-link {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; /* Change the color to white */
+}
+
+.video-background {
+  margin-top: 90px;
+  position: fixed;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  overflow: hidden; /* Add this line */
+}
+
+.video-background video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* cartscreen */
+/* .cartscreen{
+  background-image: url("../../videos/img1.jpg");
+  margin-left: 0px;
+  margin-right: 0px;
+  opacity: 0.9;
+  z-index: -1;
+} */
